@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "georef-python"
+version = "0.1.0"
+description = ""
+authors = ["SESA742250 <laurent.cutting@non.se.com>"]
+readme = "README.md"
+packages = [
+  {include = "georef_python"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+opencv-python = "^4.9.0.80"
+matplotlib = "^3.8.3"
+pytesseract = "^0.3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
